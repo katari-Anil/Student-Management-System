@@ -13,6 +13,8 @@
 
 ---
 
+DEMO LINK: https://student-management-system-one-hazel.vercel.app/
+
 ## 📌 About the Project
 
 The Student Management System is a simple web-based application
