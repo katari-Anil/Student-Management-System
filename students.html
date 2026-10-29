@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Records</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Student Records</h1>
+    <p>Registered student information</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="registration.html">Registration</a>
+    <a href="students.html">Students</a>
+</nav>
+
+<main class="container">
+    <section class="table-card">
+        <h2>Registered Students</h2>
+
+        <div class="table-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Roll Number</th>
+                        <th>Department</th>
+                        <th>Email</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody id="studentTable">
+                </tbody>
+            </table>
+        </div>
+
+        <p id="emptyMessage">No students registered yet.</p>
+    </section>
+</main>
+
+<footer>
+    <p>Student Management System</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
